@@ -1,0 +1,88 @@
+
+.customToolbarContainer {
+  width: 200%;
+  height: 100%;
+  position: relative;
+
+  .options {
+    display: flex;
+    height: 20px;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 2px;
+  }
+  .workspace {
+    height: 100%;
+    display: flex;
+    position: relative;
+    width: 100%;
+
+    .toolbarContainer {
+      flex: 1;
+      font-size: 20px;
+      background: #efefef;
+      text-align: center;
+      padding-top: 20px;
+      overflow: auto;
+
+      ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+          list-style: none;
+          margin-bottom: 10px;
+          cursor: pointer;
+
+          img {
+            width: 30px;
+            height: 30px;
+          }
+
+          span {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            border: none;
+          }
+        }
+      }
+      .properties {
+        background: #ffffff;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: 2px solid black;
+      }
+    }
+
+    .graphContainer {
+      position: relative;
+      flex: 7;
+    }
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .el-header {
+    background-color: #b3c0d1;
+    color: #333;
+    height: 21px;
+    width: 100%;
+  }
+  .el-dropdown-link {
+    cursor: pointer;
+    //color: #409EFF;
+  }
+  .disabled-click {
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,156 @@
+<mxGraphModel>
+    <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <feature xmlns="http://www.w3.org/1999/xhtml" name="Mobile Phone" id="2">
+            <mxCell xmlns="" style="fillColor=transparent;strokeColor=#000000;strokeWidth=1;cursor=pointer;textAlign=center;display=flex;flexWrap=wrap;alignItems=center;justifyContent=center;border=2px solid black" vertex="1" parent="1" title="Feature">
+                <mxGeometry x="670" y="30" width="150" height="50" as="geometry"/>
+            </mxCell>
+        </feature>
+        <feature xmlns="http://www.w3.org/1999/xhtml" name="Calls" id="3">
+            <mxCell xmlns="" style="fillColor=transparent;strokeColor=#000000;strokeWidth=1;cursor=pointer;textAlign=center;display=flex;flexWrap=wrap;alignItems=center;justifyContent=center;border=2px solid black" vertex="1" parent="1" title="Feature">
+                <mxGeometry x="120" y="230" width="150" height="50" as="geometry"/>
+            </mxCell>
+        </feature>
+        <feature xmlns="http://www.w3.org/1999/xhtml" name="GPS" id="4">
+            <mxCell xmlns="" style="fillColor=transparent;strokeColor=#000000;strokeWidth=1;cursor=pointer;textAlign=center;display=flex;flexWrap=wrap;alignItems=center;justifyContent=center;border=2px solid black" vertex="1" parent="1" title="Feature">
+                <mxGeometry x="390" y="230" width="150" height="50" as="geometry"/>
+            </mxCell>
+        </feature>
+        <feature xmlns="http://www.w3.org/1999/xhtml" name="Screen" id="5">
+            <mxCell xmlns="" style="fillColor=transparent;strokeColor=#000000;strokeWidth=1;cursor=pointer;textAlign=center;display=flex;flexWrap=wrap;alignItems=center;justifyContent=center;border=2px solid black" vertex="1" parent="1" title="Feature">
+                <mxGeometry x="660" y="230" width="150" height="50" as="geometry"/>
+            </mxCell>
+        </feature>
+        <feature xmlns="http://www.w3.org/1999/xhtml" name="Media" id="6">
+            <mxCell xmlns="" style="fillColor=transparent;strokeColor=#000000;strokeWidth=1;cursor=pointer;textAlign=center;display=flex;flexWrap=wrap;alignItems=center;justifyContent=center;border=2px solid black" vertex="1" parent="1" title="Feature">
+                <mxGeometry x="1080" y="230" width="150" height="50" as="geometry"/>
+            </mxCell>
+        </feature>
+        <feature xmlns="http://www.w3.org/1999/xhtml" name="Basic" id="7">
+            <mxCell xmlns="" style="fillColor=transparent;strokeColor=#000000;strokeWidth=1;cursor=pointer;textAlign=center;display=flex;flexWrap=wrap;alignItems=center;justifyContent=center;border=2px solid black" vertex="1" parent="1" title="Feature">
+                <mxGeometry x="420" y="410" width="150" height="50" as="geometry"/>
+            </mxCell>
+        </feature>
+        <feature xmlns="http://www.w3.org/1999/xhtml" name="Colour" id="8">
+            <mxCell xmlns="" style="fillColor=transparent;strokeColor=#000000;strokeWidth=1;cursor=pointer;textAlign=center;display=flex;flexWrap=wrap;alignItems=center;justifyContent=center;border=2px solid black" vertex="1" parent="1" title="Feature">
+                <mxGeometry x="610" y="490" width="150" height="50" as="geometry"/>
+            </mxCell>
+        </feature>
+        <feature xmlns="http://www.w3.org/1999/xhtml" name="High Resolution" id="9">
+            <mxCell xmlns="" style="fillColor=transparent;strokeColor=#000000;strokeWidth=1;cursor=pointer;textAlign=center;display=flex;flexWrap=wrap;alignItems=center;justifyContent=center;border=2px solid black" vertex="1" parent="1" title="Feature">
+                <mxGeometry x="800" y="410" width="150" height="50" as="geometry"/>
+            </mxCell>
+        </feature>
+        <feature xmlns="http://www.w3.org/1999/xhtml" name="Camera" id="10">
+            <mxCell xmlns="" style="fillColor=transparent;strokeColor=#000000;strokeWidth=1;cursor=pointer;textAlign=center;display=flex;flexWrap=wrap;alignItems=center;justifyContent=center;border=2px solid black" vertex="1" parent="1" title="Feature">
+                <mxGeometry x="995" y="410" width="150" height="50" as="geometry"/>
+            </mxCell>
+        </feature>
+        <feature xmlns="http://www.w3.org/1999/xhtml" name="MP3" id="11">
+            <mxCell xmlns="" style="fillColor=transparent;strokeColor=#000000;strokeWidth=1;cursor=pointer;textAlign=center;display=flex;flexWrap=wrap;alignItems=center;justifyContent=center;border=2px solid black" vertex="1" parent="1" title="Feature">
+                <mxGeometry x="1180" y="410" width="150" height="50" as="geometry"/>
+            </mxCell>
+        </feature>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" mincardinality="0" maxcardinality="0" type="Optional" relationship="Parenthood" id="12">
+            <mxCell xmlns="" style="startArrow=0;endArrow=oval;endFill=0" edge="1" parent="1" source="2" target="4">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" mincardinality="0" maxcardinality="0" type="Optional" relationship="Parenthood" id="13">
+            <mxCell xmlns="" style="startArrow=0;endArrow=oval;endFill=0" edge="1" parent="1" source="2" target="6">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" mincardinality="1" maxcardinality="1" type="Mandatory" relationship="Parenthood" id="14">
+            <mxCell xmlns="" style="startArrow=0;endArrow=oval;endFill=1" edge="1" parent="1" source="2" target="3">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" mincardinality="1" maxcardinality="1" type="Mandatory" relationship="Parenthood" id="15">
+            <mxCell xmlns="" style="startArrow=0;endArrow=oval;endFill=1" edge="1" parent="1" source="2" target="5">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" mincardinality="1" maxcardinality="1" type="Mandatory" relationship="Parenthood" id="16">
+            <mxCell xmlns="" style="startArrow=0;endArrow=oval;endFill=1" edge="1" parent="1" source="5" target="9">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" mincardinality="1" maxcardinality="1" type="Mandatory" relationship="Parenthood" id="17">
+            <mxCell xmlns="" style="startArrow=0;endArrow=oval;endFill=1" edge="1" parent="1" source="5" target="8">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" mincardinality="1" maxcardinality="1" type="Mandatory" relationship="Parenthood" id="18">
+            <mxCell xmlns="" style="startArrow=0;endArrow=oval;endFill=1" edge="1" parent="1" source="5" target="7">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" mincardinality="1" maxcardinality="1" type="Mandatory" relationship="Parenthood" id="19">
+            <mxCell xmlns="" style="startArrow=0;endArrow=oval;endFill=1" edge="1" parent="1" source="6" target="10">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" mincardinality="1" maxcardinality="1" type="Mandatory" relationship="Parenthood" id="20">
+            <mxCell xmlns="" style="startArrow=0;endArrow=oval;endFill=1" edge="1" parent="1" source="6" target="11">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" type="Or" relationship="LogicAssociation" id="21">
+            <mxCell xmlns="" style="startArrow=block;endArrow=block;startFill=1;endFill=1" edge="1" parent="1" source="10" target="11">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" type="Alternative" relationship="LogicAssociation" id="22">
+            <mxCell xmlns="" style="startArrow=block;endArrow=block;startFill=0;endFill=0" edge="1" parent="1" source="7" target="8">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" type="Alternative" relationship="LogicAssociation" id="23">
+            <mxCell xmlns="" style="startArrow=block;endArrow=block;startFill=0;endFill=0" edge="1" parent="1" source="8" target="9">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" type="Alternative" relationship="LogicAssociation" id="24">
+            <mxCell xmlns="" style="startArrow=block;endArrow=block;startFill=0;endFill=0" edge="1" parent="1" source="9" target="7">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" type="Requires" relationship="Dependency" id="25">
+            <mxCell xmlns="" style="dashed=1;startArrow=0;endArrow=block;endFill=1" edge="1" parent="1" source="10" target="9">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" type="Excludes" relationship="Dependency" id="26">
+            <mxCell xmlns="" style="dashed=1;startArrow=block;endArrow=block;startFill=1;endFill=1" edge="1" parent="1" source="7" target="4">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <feature xmlns="http://www.w3.org/1999/xhtml" name="Normal" id="27">
+            <mxCell xmlns="" style="fillColor=transparent;strokeColor=#000000;strokeWidth=1;cursor=pointer;textAlign=center;display=flex;flexWrap=wrap;alignItems=center;justifyContent=center;border=2px solid black" vertex="1" parent="1" title="New Feature">
+                <mxGeometry x="30" y="415" width="150" height="50" as="geometry"/>
+            </mxCell>
+        </feature>
+        <feature xmlns="http://www.w3.org/1999/xhtml" name="Wsp" id="28">
+            <mxCell xmlns="" style="fillColor=transparent;strokeColor=#000000;strokeWidth=1;cursor=pointer;textAlign=center;display=flex;flexWrap=wrap;alignItems=center;justifyContent=center;border=2px solid black" vertex="1" parent="1" title="New Feature">
+                <mxGeometry x="230" y="420" width="150" height="50" as="geometry"/>
+            </mxCell>
+        </feature>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" type="Mandatory" relationship="Parenthood" mincardinality="1" maxcardinality="1" id="29">
+            <mxCell xmlns="" style="startArrow=0;endArrow=oval;endFill=1" edge="1" parent="1" source="3" target="27">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" type="Mandatory" relationship="Parenthood" mincardinality="1" maxcardinality="1" id="30">
+            <mxCell xmlns="" style="startArrow=0;endArrow=oval;endFill=1" edge="1" parent="1" source="3" target="28">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+        <relationship xmlns="http://www.w3.org/1999/xhtml" type="Or" relationship="LogicAssociation" id="31">
+            <mxCell xmlns="" style="startArrow=block;endArrow=block;startFill=1;endFill=1" edge="1" parent="1" source="27" target="28">
+                <mxGeometry relative="1" as="geometry"/>
+            </mxCell>
+        </relationship>
+    </root>
+</mxGraphModel>

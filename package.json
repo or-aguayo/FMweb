@@ -1,0 +1,53 @@
+{
+  "name": "fmweb-variation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "node server.js",
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "@riophae/vue-treeselect": "^0.4.0",
+    "@vue/cli": "^3.4.1",
+    "Base64": "^1.1.0",
+    "angular": "^1.8.2",
+    "array-to-tree": "^3.3.2",
+    "core-js": "^2.6.5",
+    "cypress-real-events": "^1.7.0",
+    "cypress-wait-until": "^1.7.2",
+    "element-ui": "^2.8.2",
+    "express": "^4.17.1",
+    "flat": "^5.0.2",
+    "mxgraph": "^4.2.2",
+    "ramda": "^0.26.1",
+    "rxjs": "^6.5.3",
+    "sass": "^1.54.4",
+    "serve-static": "^1.14.1",
+    "vue": "^2.6.6",
+    "vue-draggable-button": "^0.1.5",
+    "vue-router": "^3.0.1",
+    "vue-unused-components-checker": "^1.1.2",
+    "vuex": "^3.0.1",
+    "xml-formatter": "^2.6.1",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.0",
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "babel-eslint": "^10.0.1",
+    "cypress": "^9.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "exports-loader": "^0.7.0",
+    "sass-loader": "^8.0.0",
+    "script-loader": "^0.7.2",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
